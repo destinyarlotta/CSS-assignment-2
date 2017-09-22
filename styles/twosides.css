@@ -11,9 +11,13 @@ h1 {
   float: left;
 
 }
+div {
+  float: left;
+  width: 47%;
+  padding-left: 60px;
+}
 
 h2 {
-  text-align: center;
   margin: 0;
   padding: 20px 0px;
 }
@@ -25,39 +29,45 @@ img {
   display: block;
   margin: auto;
 }
+section {
+  float: left;
+  width: 100%;
+}
 #cougar {
   background: #FFD5AE;
+  clear: both;
 
 }
 
 #lion {
   background: #FFBD82;
-
+  clear: both;
 }
 
 #tiger {
   background: #B26219;
-
+  clear: both;
 }
 
 header {
   float: left;
   width: 100%;
-  background-color: #333
+  background-color: #333;
 
 }
 article {
-  background: #fff;
+  float: right;
   width: 47%;
-  padding: 20px 40px;
+  padding: 54px 40px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  margin: auto;
+
 }
 footer {
+  clear: both;
   text-align: center;
-  padding: 20px 100px
+  padding: 20px 100px;
 }
 footer > p {
   color: #999;
